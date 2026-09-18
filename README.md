@@ -115,27 +115,27 @@ Utilisez les identifiants de test :
 
 ## Structure du projet
 notes_app/
-Document├── PROJET SEMAINE 6#Documentation du projet avec capture
+├── Document/
+│   └── PROJET SEMAINE 6 # Documentation du projet avec capture
 ├── lib/
-│ ├── main.dart # Point d'entrée
-│ ├── models/
-│ │ ├── user.dart # Modèle utilisateur
-│ │ └── note.dart # Modèle note
-│ ├── database/
-│ │ └── database_helper.dart # Gestion SQLite
-│ ├── screens/
-│ │ ├── splash_screen.dart # Écran d'accueil
-│ │ ├── login_screen.dart # Authentification
-│ │ ├── notes_screen.dart # Liste des notes
-│ │ └── edit_note_screen.dart # Créer/modifier
-│ └── widgets/
-│ └── note_card.dart # Affichage note
+│   ├── main.dart # Point d'entrée
+│   ├── models/
+│   │   ├── user.dart # Modèle utilisateur
+│   │   └── note.dart # Modèle note
+│   ├── database/
+│   │   └── database_helper.dart # Gestion SQLite
+│   ├── screens/
+│   │   ├── splash_screen.dart # Écran d'accueil
+│   │   ├── login_screen.dart # Authentification
+│   │   ├── notes_screen.dart # Liste des notes
+│   │   └── edit_note_screen.dart # Créer/modifier
+│   └── widgets/
+│       └── note_card.dart # Affichage note
 ├── assets/
-│ └── images/
-│ └── dclic_background.png # Background
+│   └── images/
+│       └── dclic_background.png # Background
 ├── pubspec.yaml # Dépendances
-├── README.md # Ce fichier
-
+└── README.md # Ce fichier
 
 ## Architecture
 
