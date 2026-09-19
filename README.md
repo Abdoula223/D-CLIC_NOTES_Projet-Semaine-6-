@@ -87,7 +87,7 @@ flutter emulators --launch default
 ### Première connexion
 
 Utilisez les identifiants de test :
-- Nom d'utilisateur : `diallot@dclic.org`
+- Nom d'utilisateur : `diallo@dclic.org`
 - Mot de passe : `motdepasse123`
 
 ### Écrans principaux
@@ -114,28 +114,31 @@ Utilisez les identifiants de test :
 - Validation des données
 
 ## Structure du projet
+## Structure du projet
+
+```text
 notes_app/
 ├── Document/
-│   └── PROJET SEMAINE 6 # Documentation du projet avec capture
+│   └── PROJET SEMAINE 6          # Documentation du projet avec capture
 ├── lib/
-│   ├── main.dart # Point d'entrée
+│   ├── main.dart                 # Point d'entrée
 │   ├── models/
-│   │   ├── user.dart # Modèle utilisateur
-│   │   └── note.dart # Modèle note
+│   │   ├── user.dart             # Modèle utilisateur
+│   │   └── note.dart             # Modèle note
 │   ├── database/
-│   │   └── database_helper.dart # Gestion SQLite
+│   │   └── database_helper.dart  # Gestion SQLite
 │   ├── screens/
-│   │   ├── splash_screen.dart # Écran d'accueil
-│   │   ├── login_screen.dart # Authentification
-│   │   ├── notes_screen.dart # Liste des notes
+│   │   ├── splash_screen.dart    # Écran d'accueil
+│   │   ├── login_screen.dart     # Authentification
+│   │   ├── notes_screen.dart     # Liste des notes
 │   │   └── edit_note_screen.dart # Créer/modifier
 │   └── widgets/
-│       └── note_card.dart # Affichage note
+│       └── note_card.dart        # Affichage note
 ├── assets/
 │   └── images/
-│       └── dclic_background.png # Background
-├── pubspec.yaml # Dépendances
-└── README.md # Ce fichier
+│       └── dclic_background.png  # Background
+├── pubspec.yaml                  # Dépendances
+└── README.md                     # Ce fichier
 
 ## Architecture
 

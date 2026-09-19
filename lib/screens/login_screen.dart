@@ -214,7 +214,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Utilisateur de test : diallo@dclic.org / motdepasse123'),
+                          content: Text('Utilisateur de test : diallo@dclic.org motdepasse123'),
                         ),
                       );
                     },
